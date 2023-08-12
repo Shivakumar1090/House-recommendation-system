@@ -1,0 +1,48 @@
+.instruction{
+    position: absolute;
+    background:rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    margin: 10px 0;
+}
+.box{
+    background-color: rgb(193, 171, 171);
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.plot div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 2px 0;
+}
+
+.plot div div{
+    margin-right: 5px;
+}
+
+.ins{
+    margin: 5px 0;
+}
+.ins div{
+    margin: 5px 0;
+}
+
+.btni{
+    background-color: red;
+    float: right;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+}

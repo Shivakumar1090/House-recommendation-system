@@ -1,0 +1,14 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+    /* border-bottom: 1px black solid; */
+}
+
+.image{
+    width: 60px;
+    height: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+}

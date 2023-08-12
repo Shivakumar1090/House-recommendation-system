@@ -1,0 +1,61 @@
+.pop-up{
+    position: absolute;
+    background:rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pop-up .box{
+    background-color: rgb(193, 171, 171);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2%;
+}
+
+.title{
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.box div input{
+    padding: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.inp{
+    margin: 10px 0;
+}
+
+.btns{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
+
+.btns button{
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+}
+
+.btn1{
+    background-color: #2B3467;
+}
+.btn2{
+    background-color: red;
+}

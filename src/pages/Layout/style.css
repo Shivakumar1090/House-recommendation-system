@@ -1,0 +1,23 @@
+.layout{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 100vh;
+    /* background-color:#3795BD ; */
+}
+.plots{
+    display: flex;
+    flex-direction: row;
+    margin: 1% 0;
+}
+.btn{
+    cursor: pointer;
+    font-size: medium;
+    font-weight: bold;
+    border: none;
+    background-color: #2B3467;
+    border-radius: 20px;
+    padding: 12px;
+    color: white;
+}
